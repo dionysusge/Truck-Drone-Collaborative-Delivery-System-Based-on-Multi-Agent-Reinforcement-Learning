@@ -2,8 +2,9 @@
 
 基于多智能体强化学习（MAPPO）的无人机-卡车协同配送路径优化系统。
 
-**作者**: Dionysus  
-**核心算法**: MAPPO (Multi-Agent Proximal Policy Optimization)
+> **作者**: Dionysus  
+> **联系方式**: WeChat: gzw1546484791 | Email: dionysusge58@gmail.com
+> 合作可加v
 
 ## 📋 项目简介
 

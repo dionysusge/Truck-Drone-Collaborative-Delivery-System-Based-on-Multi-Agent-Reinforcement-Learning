@@ -1,0 +1,2283 @@
+{
+  "test_summary": {
+    "episode_length": 10,
+    "total_rewards": [
+      2531.443853365656,
+      2287.505427152071
+    ],
+    "average_reward": 2409.4746402588635,
+    "final_completion_rate": 1.0,
+    "final_path_efficiency": 1.0,
+    "final_capacity_utilization": 0.47,
+    "total_served_demand": 144.0,
+    "total_distance": 2112.144342278678
+  },
+  "environment_states": [
+    {
+      "step": 0,
+      "timestamp": "2025-12-03T23:47:43.185926",
+      "total_served_demand": 0,
+      "total_remaining_demand": 112.70000000000002,
+      "completion_rate": 0.16666666666666666,
+      "path_efficiency": 1.0,
+      "capacity_utilization": 0.47,
+      "done": false
+    },
+    {
+      "step": 1,
+      "timestamp": "2025-12-03T23:47:43.193724",
+      "total_served_demand": 0,
+      "total_remaining_demand": 100.20500000000003,
+      "completion_rate": 0.26666666666666666,
+      "path_efficiency": 1.0,
+      "capacity_utilization": 0.47,
+      "done": false
+    },
+    {
+      "step": 2,
+      "timestamp": "2025-12-03T23:47:43.200841",
+      "total_served_demand": 0,
+      "total_remaining_demand": 87.29775000000001,
+      "completion_rate": 0.4,
+      "path_efficiency": 1.0,
+      "capacity_utilization": 0.47,
+      "done": false
+    },
+    {
+      "step": 3,
+      "timestamp": "2025-12-03T23:47:43.207631",
+      "total_served_demand": 0,
+      "total_remaining_demand": 77.4881125,
+      "completion_rate": 0.4666666666666667,
+      "path_efficiency": 1.0,
+      "capacity_utilization": 0.47,
+      "done": false
+    },
+    {
+      "step": 4,
+      "timestamp": "2025-12-03T23:47:43.213827",
+      "total_served_demand": 0,
+      "total_remaining_demand": 64.3316375,
+      "completion_rate": 0.5666666666666667,
+      "path_efficiency": 1.0,
+      "capacity_utilization": 0.47,
+      "done": false
+    },
+    {
+      "step": 5,
+      "timestamp": "2025-12-03T23:47:43.219100",
+      "total_served_demand": 0,
+      "total_remaining_demand": 40.96522734375,
+      "completion_rate": 0.7333333333333333,
+      "path_efficiency": 1.0,
+      "capacity_utilization": 0.47,
+      "done": false
+    },
+    {
+      "step": 6,
+      "timestamp": "2025-12-03T23:47:43.223882",
+      "total_served_demand": 0,
+      "total_remaining_demand": 36.5569513640625,
+      "completion_rate": 0.7666666666666667,
+      "path_efficiency": 1.0,
+      "capacity_utilization": 0.47,
+      "done": false
+    },
+    {
+      "step": 7,
+      "timestamp": "2025-12-03T23:47:43.228413",
+      "total_served_demand": 0,
+      "total_remaining_demand": 24.983786734687502,
+      "completion_rate": 0.8333333333333334,
+      "path_efficiency": 1.0,
+      "capacity_utilization": 0.47,
+      "done": false
+    },
+    {
+      "step": 8,
+      "timestamp": "2025-12-03T23:47:43.232585",
+      "total_served_demand": 0,
+      "total_remaining_demand": 11.89206724720703,
+      "completion_rate": 0.9333333333333333,
+      "path_efficiency": 1.0,
+      "capacity_utilization": 0.47,
+      "done": false
+    },
+    {
+      "step": 9,
+      "timestamp": "2025-12-03T23:47:43.236200",
+      "total_served_demand": 0,
+      "total_remaining_demand": 0.0,
+      "completion_rate": 1.0,
+      "path_efficiency": 1.0,
+      "capacity_utilization": 0.47,
+      "done": true
+    }
+  ],
+  "demand_history": [
+    {
+      "step": 0,
+      "locker_demands": [
+        4.199999999999999,
+        4.1,
+        4.85,
+        0,
+        4.05,
+        3.9,
+        0,
+        0,
+        4.0,
+        0,
+        4.95,
+        6.8999999999999995,
+        3.8499999999999996,
+        5.8,
+        0,
+        7.85,
+        3.15,
+        2.5,
+        5.800000000000001,
+        6.0,
+        2.1500000000000004,
+        5.25,
+        6.25,
+        3.9,
+        4.9,
+        4.2,
+        6.0,
+        4.0,
+        2.95,
+        1.2000000000000002
+      ],
+      "locker_served": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "demand_hotspots": [
+        {
+          "center": [
+            39.068,
+            38.858999999999995
+          ],
+          "locker_count": 1,
+          "demand_density": 0.008841941282883075,
+          "service_potential": 1.0
+        },
+        {
+          "center": [
+            39.068,
+            -78.483
+          ],
+          "locker_count": 1,
+          "demand_density": 0.008205321510515494,
+          "service_potential": 1.0
+        },
+        {
+          "center": [
+            -73.876,
+            -78.483
+          ],
+          "locker_count": 1,
+          "demand_density": 0.008205321510515493,
+          "service_potential": 1.0
+        }
+      ],
+      "unserved_demand_total": 0.0
+    },
+    {
+      "step": 1,
+      "locker_demands": [
+        4.289999999999999,
+        3.995,
+        0.0,
+        0,
+        4.1975,
+        4.055,
+        0,
+        0,
+        3.9,
+        0,
+        4.8025,
+        6.904999999999999,
+        3.9074999999999998,
+        5.8100000000000005,
+        0,
+        7.657500000000001,
+        3.3425,
+        2.875,
+        5.710000000000001,
+        0.0,
+        2.2425,
+        5.4875,
+        6.5875,
+        3.8049999999999997,
+        4.805,
+        4.24,
+        6.05,
+        4.25,
+        0.0,
+        1.29
+      ],
+      "locker_served": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "demand_hotspots": [
+        {
+          "center": [
+            39.068,
+            38.858999999999995
+          ],
+          "locker_count": 1,
+          "demand_density": 0.009319406112158762,
+          "service_potential": 1.0
+        },
+        {
+          "center": [
+            -73.876,
+            -78.483
+          ],
+          "locker_count": 1,
+          "demand_density": 0.008219468616568106,
+          "service_potential": 1.0
+        },
+        {
+          "center": [
+            39.068,
+            -78.483
+          ],
+          "locker_count": 1,
+          "demand_density": 0.008077997556041978,
+          "service_potential": 1.0
+        }
+      ],
+      "unserved_demand_total": 0.0
+    },
+    {
+      "step": 2,
+      "locker_demands": [
+        0.0,
+        3.94525,
+        0.0,
+        0,
+        4.337625,
+        4.30225,
+        0,
+        0,
+        4.055,
+        0,
+        4.962375,
+        6.7597499999999995,
+        3.812125,
+        5.5695,
+        0,
+        7.824625000000001,
+        3.375375,
+        0.0,
+        5.724500000000001,
+        0.0,
+        2.380375,
+        5.413125,
+        6.458125,
+        3.76475,
+        0.0,
+        4.378,
+        5.9975000000000005,
+        4.237499999999999,
+        0.0,
+        0.0
+      ],
+      "locker_served": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "demand_hotspots": [
+        {
+          "center": [
+            39.068,
+            38.858999999999995
+          ],
+          "locker_count": 1,
+          "demand_density": 0.00913637792760308,
+          "service_potential": 1.0
+        },
+        {
+          "center": [
+            39.068,
+            -78.483
+          ],
+          "locker_count": 1,
+          "demand_density": 0.008098510859818267,
+          "service_potential": 1.0
+        },
+        {
+          "center": [
+            -73.876,
+            -78.483
+          ],
+          "locker_count": 1,
+          "demand_density": 0.007879230716002765,
+          "service_potential": 1.0
+        }
+      ],
+      "unserved_demand_total": 0.0
+    },
+    {
+      "step": 3,
+      "locker_demands": [
+        0.0,
+        4.1979875,
+        0.0,
+        0,
+        4.270743749999999,
+        4.3371375,
+        0,
+        0,
+        4.10225,
+        0,
+        4.96425625,
+        6.6717625,
+        3.72151875,
+        5.591025,
+        0,
+        0.0,
+        3.50660625,
+        0.0,
+        5.7882750000000005,
+        0.0,
+        0.0,
+        5.39246875,
+        6.435218750000001,
+        3.6765125000000003,
+        0.0,
+        4.3091,
+        5.947625,
+        4.575625,
+        0.0,
+        0.0
+      ],
+      "locker_served": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "demand_hotspots": [
+        {
+          "center": [
+            39.068,
+            38.858999999999995
+          ],
+          "locker_count": 1,
+          "demand_density": 0.009103972212801315,
+          "service_potential": 1.0
+        },
+        {
+          "center": [
+            39.068,
+            -78.483
+          ],
+          "locker_count": 1,
+          "demand_density": 0.008188734028668805,
+          "service_potential": 1.0
+        },
+        {
+          "center": [
+            -73.876,
+            -78.483
+          ],
+          "locker_count": 1,
+          "demand_density": 0.007909682361781014,
+          "service_potential": 1.0
+        }
+      ],
+      "unserved_demand_total": 0.0
+    },
+    {
+      "step": 4,
+      "locker_demands": [
+        0.0,
+        0.0,
+        0.0,
+        0,
+        4.4572065625,
+        4.3202806250000005,
+        0,
+        0,
+        0.0,
+        0,
+        4.7660434375000005,
+        6.538174375,
+        3.6854428125,
+        5.51147375,
+        0,
+        0.0,
+        3.6312759375,
+        0.0,
+        5.69886125,
+        0.0,
+        0.0,
+        5.4228453125,
+        6.313457812500001,
+        3.7426868750000004,
+        0.0,
+        4.293645,
+        5.95024375,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "locker_served": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "demand_hotspots": [
+        {
+          "center": [
+            39.068,
+            38.858999999999995
+          ],
+          "locker_count": 1,
+          "demand_density": 0.00893171572321351,
+          "service_potential": 1.0
+        },
+        {
+          "center": [
+            39.068,
+            -78.483
+          ],
+          "locker_count": 1,
+          "demand_density": 0.008062239448287623,
+          "service_potential": 1.0
+        },
+        {
+          "center": [
+            -73.876,
+            -78.483
+          ],
+          "locker_count": 1,
+          "demand_density": 0.007797140364744223,
+          "service_potential": 1.0
+        }
+      ],
+      "unserved_demand_total": 0.0
+    },
+    {
+      "step": 5,
+      "locker_demands": [
+        0.0,
+        0.0,
+        0.0,
+        0,
+        4.684346234375,
+        0.0,
+        0,
+        0,
+        0.0,
+        0,
+        0.0,
+        6.56126565625,
+        0.0,
+        5.5859000625,
+        0,
+        0.0,
+        3.9997121406249994,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        5.301703046875,
+        6.647784921875001,
+        3.80555253125,
+        0.0,
+        4.37896275,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "locker_served": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "demand_hotspots": [
+        {
+          "center": [
+            39.068,
+            38.858999999999995
+          ],
+          "locker_count": 1,
+          "demand_density": 0.009404691830472673,
+          "service_potential": 1.0
+        },
+        {
+          "center": [
+            -73.876,
+            -78.483
+          ],
+          "locker_count": 1,
+          "demand_density": 0.007902432058348464,
+          "service_potential": 1.0
+        },
+        {
+          "center": [
+            -73.876,
+            38.858999999999995
+          ],
+          "locker_count": 1,
+          "demand_density": 0.0,
+          "service_potential": 0.0
+        }
+      ],
+      "unserved_demand_total": 0.0
+    },
+    {
+      "step": 6,
+      "locker_demands": [
+        0.0,
+        0.0,
+        0.0,
+        0,
+        4.80012892265625,
+        0.0,
+        0,
+        0,
+        0.0,
+        0,
+        0.0,
+        6.4332023734375,
+        0.0,
+        5.456605059375,
+        0,
+        0.0,
+        4.04972653359375,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        5.48661789453125,
+        6.615395675781251,
+        3.7152749046875,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "locker_served": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "demand_hotspots": [
+        {
+          "center": [
+            39.068,
+            38.858999999999995
+          ],
+          "locker_count": 1,
+          "demand_density": 0.009358870420527427,
+          "service_potential": 1.0
+        },
+        {
+          "center": [
+            -73.876,
+            -78.483
+          ],
+          "locker_count": 1,
+          "demand_density": 0.007719517046220234,
+          "service_potential": 1.0
+        },
+        {
+          "center": [
+            -73.876,
+            38.858999999999995
+          ],
+          "locker_count": 1,
+          "demand_density": 0.0,
+          "service_potential": 0.0
+        }
+      ],
+      "unserved_demand_total": 0.0
+    },
+    {
+      "step": 7,
+      "locker_demands": [
+        0.0,
+        0.0,
+        0.0,
+        0,
+        5.010122476523438,
+        0.0,
+        0,
+        0,
+        0.0,
+        0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0,
+        0.0,
+        4.197240206914063,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        5.562286999804687,
+        6.534625891992189,
+        3.679511159453125,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "locker_served": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "demand_hotspots": [
+        {
+          "center": [
+            39.068,
+            38.858999999999995
+          ],
+          "locker_count": 1,
+          "demand_density": 0.009244604550816379,
+          "service_potential": 1.0
+        },
+        {
+          "center": [
+            -73.876,
+            -78.483
+          ],
+          "locker_count": 1,
+          "demand_density": 0.0,
+          "service_potential": 0.0
+        },
+        {
+          "center": [
+            -73.876,
+            38.858999999999995
+          ],
+          "locker_count": 1,
+          "demand_density": 0.0,
+          "service_potential": 0.0
+        }
+      ],
+      "unserved_demand_total": 0.0
+    },
+    {
+      "step": 8,
+      "locker_demands": [
+        0.0,
+        0.0,
+        0.0,
+        0,
+        0.0,
+        0.0,
+        0,
+        0,
+        0.0,
+        0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        5.534172649814453,
+        6.357894597392579,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "locker_served": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "demand_hotspots": [
+        {
+          "center": [
+            39.068,
+            38.858999999999995
+          ],
+          "locker_count": 1,
+          "demand_density": 0.008994580914064753,
+          "service_potential": 1.0
+        },
+        {
+          "center": [
+            -73.876,
+            -78.483
+          ],
+          "locker_count": 1,
+          "demand_density": 0.0,
+          "service_potential": 0.0
+        },
+        {
+          "center": [
+            -73.876,
+            38.858999999999995
+          ],
+          "locker_count": 1,
+          "demand_density": 0.0,
+          "service_potential": 0.0
+        }
+      ],
+      "unserved_demand_total": 0.0
+    },
+    {
+      "step": 9,
+      "locker_demands": [
+        0.0,
+        0.0,
+        0.0,
+        0,
+        0.0,
+        0.0,
+        0,
+        0,
+        0.0,
+        0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "locker_served": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "demand_hotspots": [
+        {
+          "center": [
+            -73.876,
+            -78.483
+          ],
+          "locker_count": 1,
+          "demand_density": 0.0,
+          "service_potential": 0.0
+        },
+        {
+          "center": [
+            -73.876,
+            38.858999999999995
+          ],
+          "locker_count": 1,
+          "demand_density": 0.0,
+          "service_potential": 0.0
+        },
+        {
+          "center": [
+            -73.876,
+            77.97299999999997
+          ],
+          "locker_count": 1,
+          "demand_density": 0.0,
+          "service_potential": 0.0
+        }
+      ],
+      "unserved_demand_total": 0.0
+    }
+  ],
+  "truck_states": [
+    {
+      "step": 0,
+      "trucks": [
+        {
+          "truck_id": 0,
+          "position": [
+            -71.37,
+            68.06
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 4,
+            "service_area": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          "reward": 164.40147747839336,
+          "total_distance": 98.61967602867087,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        },
+        {
+          "truck_id": 1,
+          "position": [
+            14.73,
+            83.55
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 15,
+            "service_area": [
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              1,
+              1
+            ]
+          },
+          "reward": 350.0,
+          "total_distance": 84.83852544687467,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 1,
+      "trucks": [
+        {
+          "truck_id": 0,
+          "position": [
+            76.13,
+            20.99
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 20,
+            "service_area": [
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              1,
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          "reward": 174.5422943639406,
+          "total_distance": 253.44808072238334,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        },
+        {
+          "truck_id": 1,
+          "position": [
+            42.25,
+            6.5
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 29,
+            "service_area": [
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "reward": 314.75,
+          "total_distance": 166.65571740553332,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "trucks": [
+        {
+          "truck_id": 0,
+          "position": [
+            95.54,
+            -33.0
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 25,
+            "service_area": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          "reward": 71.08717038938245,
+          "total_distance": 310.82114234541336,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        },
+        {
+          "truck_id": 1,
+          "position": [
+            74.11,
+            48.09
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 18,
+            "service_area": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          "reward": 84.54434570501707,
+          "total_distance": 219.04643891230398,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "trucks": [
+        {
+          "truck_id": 0,
+          "position": [
+            46.85,
+            -98.04
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 16,
+            "service_area": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "reward": 339.12312499999996,
+          "total_distance": 392.06717424851615,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        },
+        {
+          "truck_id": 1,
+          "position": [
+            -41.6,
+            -80.18
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 21,
+            "service_area": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "reward": 311.9018750000001,
+          "total_distance": 391.79480214622873,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "trucks": [
+        {
+          "truck_id": 0,
+          "position": [
+            -90.02,
+            21.9
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 9,
+            "service_area": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "reward": 320.51125,
+          "total_distance": 574.0534388401056,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        },
+        {
+          "truck_id": 1,
+          "position": [
+            -37.49,
+            -15.69
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 28,
+            "service_area": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "reward": 94.76026214644077,
+          "total_distance": 456.4156362479331,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "trucks": [
+        {
+          "truck_id": 0,
+          "position": [
+            18.66,
+            49.06
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 11,
+            "service_area": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "reward": 323.8302171875,
+          "total_distance": 686.0757937519713,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        },
+        {
+          "truck_id": 1,
+          "position": [
+            66.07,
+            -62.07
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 27,
+            "service_area": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "reward": 151.49024498220513,
+          "total_distance": 569.8871216528576,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "trucks": [
+        {
+          "truck_id": 0,
+          "position": [
+            -91.52,
+            -3.28
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 26,
+            "service_area": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "reward": 321.89481375,
+          "total_distance": 808.0557429239561,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        },
+        {
+          "truck_id": 1,
+          "position": [
+            66.07,
+            -62.07
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 26,
+            "service_area": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "reward": 0.0,
+          "total_distance": 569.8871216528576,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "trucks": [
+        {
+          "truck_id": 0,
+          "position": [
+            18.58,
+            -7.9
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 12,
+            "service_area": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "reward": 332.1660118671875,
+          "total_distance": 918.2526321722466,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        },
+        {
+          "truck_id": 1,
+          "position": [
+            -65.99,
+            -70.41
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 14,
+            "service_area": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "reward": 327.283025296875,
+          "total_distance": 702.2102080739353,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "trucks": [
+        {
+          "truck_id": 0,
+          "position": [
+            -55.24,
+            -40.64
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 24,
+            "service_area": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "reward": 156.21663008017984,
+          "total_distance": 999.0071986065976,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        },
+        {
+          "truck_id": 1,
+          "position": [
+            -13.28,
+            -94.06
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 17,
+            "service_area": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "reward": 320.9862010345703,
+          "total_distance": 759.9827499948167,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "trucks": [
+        {
+          "truck_id": 0,
+          "position": [
+            90.13,
+            97.53
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 22,
+            "service_area": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "reward": 327.6708632490723,
+          "total_distance": 1199.5648855697254,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        },
+        {
+          "truck_id": 1,
+          "position": [
+            45.79,
+            46.64
+          ],
+          "capacity": 100,
+          "current_delivery_load": 47,
+          "current_return_load": 0,
+          "current_load": 47,
+          "action": {
+            "select_stop": 23,
+            "service_area": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "reward": 331.7894729869629,
+          "total_distance": 912.5794567089525,
+          "served_lockers": [],
+          "efficiency_score": 0.0
+        }
+      ]
+    }
+  ],
+  "drone_states": [
+    {
+      "step": 0,
+      "active_schedules": 0,
+      "completed_tasks": 0,
+      "total_scheduled_time": 0
+    },
+    {
+      "step": 1,
+      "active_schedules": 0,
+      "completed_tasks": 0,
+      "total_scheduled_time": 0
+    },
+    {
+      "step": 2,
+      "active_schedules": 0,
+      "completed_tasks": 0,
+      "total_scheduled_time": 0
+    },
+    {
+      "step": 3,
+      "active_schedules": 0,
+      "completed_tasks": 0,
+      "total_scheduled_time": 0
+    },
+    {
+      "step": 4,
+      "active_schedules": 0,
+      "completed_tasks": 0,
+      "total_scheduled_time": 0
+    },
+    {
+      "step": 5,
+      "active_schedules": 0,
+      "completed_tasks": 0,
+      "total_scheduled_time": 0
+    },
+    {
+      "step": 6,
+      "active_schedules": 0,
+      "completed_tasks": 0,
+      "total_scheduled_time": 0
+    },
+    {
+      "step": 7,
+      "active_schedules": 0,
+      "completed_tasks": 0,
+      "total_scheduled_time": 0
+    },
+    {
+      "step": 8,
+      "active_schedules": 0,
+      "completed_tasks": 0,
+      "total_scheduled_time": 0
+    },
+    {
+      "step": 9,
+      "active_schedules": 0,
+      "completed_tasks": 0,
+      "total_scheduled_time": 0
+    }
+  ],
+  "reward_breakdown": [
+    {
+      "step": 0,
+      "service_reward": 160.0,
+      "efficiency_reward": 354.40147747839336,
+      "cost_penalty": 0.0,
+      "total_reward": 514.4014774783934
+    },
+    {
+      "step": 1,
+      "service_reward": 69.0,
+      "efficiency_reward": 420.29229436394064,
+      "cost_penalty": 0.0,
+      "total_reward": 489.29229436394064
+    },
+    {
+      "step": 2,
+      "service_reward": 66.3,
+      "efficiency_reward": 89.33151609439952,
+      "cost_penalty": 0.0,
+      "total_reward": 155.6315160943995
+    },
+    {
+      "step": 3,
+      "service_reward": 51.025000000000006,
+      "efficiency_reward": 600.0,
+      "cost_penalty": 0.0,
+      "total_reward": 651.0250000000001
+    },
+    {
+      "step": 4,
+      "service_reward": 64.3793125,
+      "efficiency_reward": 350.89219964644076,
+      "cost_penalty": 0.0,
+      "total_reward": 415.2715121464408
+    },
+    {
+      "step": 5,
+      "service_reward": 122.104359375,
+      "efficiency_reward": 353.21610279470514,
+      "cost_penalty": 0.0,
+      "total_reward": 475.32046216970514
+    },
+    {
+      "step": 6,
+      "service_reward": 21.89481375,
+      "efficiency_reward": 300.0,
+      "cost_penalty": 0.0,
+      "total_reward": 321.89481375
+    },
+    {
+      "step": 7,
+      "service_reward": 59.4490371640625,
+      "efficiency_reward": 600.0,
+      "cost_penalty": 0.0,
+      "total_reward": 659.4490371640625
+    },
+    {
+      "step": 8,
+      "service_reward": 64.43436921445313,
+      "efficiency_reward": 412.76846190029704,
+      "cost_penalty": 0.0,
+      "total_reward": 477.2028311147501
+    },
+    {
+      "step": 9,
+      "service_reward": 59.46033623603516,
+      "efficiency_reward": 600.0,
+      "cost_penalty": 0.0,
+      "total_reward": 659.4603362360351
+    }
+  ],
+  "summary_table": {
+    "Run": 1,
+    "Total Reward": 4818.949280517728,
+    "Service Reward": 738.0472282395508,
+    "Efficiency Reward": 4080.9020522781766,
+    "Cost Penalty": 0.0,
+    "Steps": 10
+  }
+}

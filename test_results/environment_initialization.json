@@ -1,0 +1,344 @@
+{
+  "timestamp": "2025-12-03T23:47:43.177008",
+  "environment_config": {
+    "num_trucks": 2,
+    "num_lockers": 30,
+    "truck_capacity": 100,
+    "max_timesteps": 600
+  },
+  "initial_truck_positions": [
+    {
+      "truck_id": 0,
+      "position": [
+        0,
+        0
+      ],
+      "capacity": 100,
+      "current_delivery_load": 47,
+      "current_return_load": 0
+    },
+    {
+      "truck_id": 1,
+      "position": [
+        0,
+        0
+      ],
+      "capacity": 100,
+      "current_delivery_load": 47,
+      "current_return_load": 0
+    }
+  ],
+  "locker_positions": [
+    {
+      "locker_id": 0,
+      "position": [
+        91.44,
+        52.02
+      ],
+      "demand_del": 3,
+      "demand_ret": 1
+    },
+    {
+      "locker_id": 1,
+      "position": [
+        -59.09,
+        -14.06
+      ],
+      "demand_del": 0,
+      "demand_ret": 4
+    },
+    {
+      "locker_id": 2,
+      "position": [
+        68.69,
+        16.52
+      ],
+      "demand_del": 3,
+      "demand_ret": 2
+    },
+    {
+      "locker_id": 3,
+      "position": [
+        -71.37,
+        68.06
+      ],
+      "demand_del": 2,
+      "demand_ret": 2
+    },
+    {
+      "locker_id": 4,
+      "position": [
+        -56.48,
+        -34.21
+      ],
+      "demand_del": 0,
+      "demand_ret": 4
+    },
+    {
+      "locker_id": 5,
+      "position": [
+        54.15,
+        -42.51
+      ],
+      "demand_del": 3,
+      "demand_ret": 1
+    },
+    {
+      "locker_id": 6,
+      "position": [
+        -92.7,
+        68.01
+      ],
+      "demand_del": 4,
+      "demand_ret": 5
+    },
+    {
+      "locker_id": 7,
+      "position": [
+        -74.58,
+        49.36
+      ],
+      "demand_del": 3,
+      "demand_ret": 0
+    },
+    {
+      "locker_id": 8,
+      "position": [
+        -90.02,
+        21.9
+      ],
+      "demand_del": 4,
+      "demand_ret": 0
+    },
+    {
+      "locker_id": 9,
+      "position": [
+        -58.0,
+        61.58
+      ],
+      "demand_del": 1,
+      "demand_ret": 5
+    },
+    {
+      "locker_id": 10,
+      "position": [
+        18.66,
+        49.06
+      ],
+      "demand_del": 4,
+      "demand_ret": 1
+    },
+    {
+      "locker_id": 11,
+      "position": [
+        18.58,
+        -7.9
+      ],
+      "demand_del": 2,
+      "demand_ret": 5
+    },
+    {
+      "locker_id": 12,
+      "position": [
+        66.92,
+        -38.07
+      ],
+      "demand_del": 1,
+      "demand_ret": 3
+    },
+    {
+      "locker_id": 13,
+      "position": [
+        -65.99,
+        -70.41
+      ],
+      "demand_del": 4,
+      "demand_ret": 2
+    },
+    {
+      "locker_id": 14,
+      "position": [
+        14.73,
+        83.55
+      ],
+      "demand_del": 5,
+      "demand_ret": 5
+    },
+    {
+      "locker_id": 15,
+      "position": [
+        46.85,
+        -98.04
+      ],
+      "demand_del": 3,
+      "demand_ret": 5
+    },
+    {
+      "locker_id": 16,
+      "position": [
+        -13.28,
+        -94.06
+      ],
+      "demand_del": 2,
+      "demand_ret": 1
+    },
+    {
+      "locker_id": 17,
+      "position": [
+        74.11,
+        48.09
+      ],
+      "demand_del": 2,
+      "demand_ret": 0
+    },
+    {
+      "locker_id": 18,
+      "position": [
+        49.8,
+        -70.21
+      ],
+      "demand_del": 3,
+      "demand_ret": 3
+    },
+    {
+      "locker_id": 19,
+      "position": [
+        76.13,
+        20.99
+      ],
+      "demand_del": 3,
+      "demand_ret": 3
+    },
+    {
+      "locker_id": 20,
+      "position": [
+        -41.6,
+        -80.18
+      ],
+      "demand_del": 1,
+      "demand_ret": 1
+    },
+    {
+      "locker_id": 21,
+      "position": [
+        90.13,
+        97.53
+      ],
+      "demand_del": 3,
+      "demand_ret": 2
+    },
+    {
+      "locker_id": 22,
+      "position": [
+        45.79,
+        46.64
+      ],
+      "demand_del": 5,
+      "demand_ret": 1
+    },
+    {
+      "locker_id": 23,
+      "position": [
+        -55.24,
+        -40.64
+      ],
+      "demand_del": 1,
+      "demand_ret": 3
+    },
+    {
+      "locker_id": 24,
+      "position": [
+        95.54,
+        -33.0
+      ],
+      "demand_del": 1,
+      "demand_ret": 4
+    },
+    {
+      "locker_id": 25,
+      "position": [
+        -91.52,
+        -3.28
+      ],
+      "demand_del": 1,
+      "demand_ret": 3
+    },
+    {
+      "locker_id": 26,
+      "position": [
+        66.07,
+        -62.07
+      ],
+      "demand_del": 3,
+      "demand_ret": 3
+    },
+    {
+      "locker_id": 27,
+      "position": [
+        -37.49,
+        -15.69
+      ],
+      "demand_del": 2,
+      "demand_ret": 2
+    },
+    {
+      "locker_id": 28,
+      "position": [
+        42.25,
+        6.5
+      ],
+      "demand_del": 2,
+      "demand_ret": 1
+    },
+    {
+      "locker_id": 29,
+      "position": [
+        86.5,
+        -13.8
+      ],
+      "demand_del": 0,
+      "demand_ret": 1
+    }
+  ],
+  "initial_demand_distribution": {
+    "total_demand_del": 71,
+    "total_demand_ret": 73,
+    "average_demand_del": 2.3666666666666667,
+    "average_demand_ret": 2.433333333333333,
+    "demand_variance_del": 1.8988888888888886,
+    "demand_variance_ret": 2.578888888888889,
+    "high_demand_lockers_del": [
+      0,
+      2,
+      5,
+      6,
+      7,
+      8,
+      10,
+      13,
+      14,
+      15,
+      18,
+      19,
+      21,
+      22,
+      26
+    ],
+    "high_demand_lockers_ret": [
+      1,
+      4,
+      6,
+      9,
+      11,
+      12,
+      14,
+      15,
+      18,
+      19,
+      23,
+      24,
+      25,
+      26
+    ]
+  }
+}

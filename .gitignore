@@ -1,0 +1,103 @@
+# ======================
+# Python 字节码 / 缓存
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ======================
+# 虚拟环境
+# ======================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ======================
+# 构建 / 打包产物
+# ======================
+build/
+dist/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ======================
+# 安装器日志
+# ======================
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ======================
+# 测试 / 覆盖率
+# ======================
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+
+# ======================
+# 类型检查 / 静态分析
+# ======================
+.mypy_cache/
+.pytype/
+.pyre/
+
+# ======================
+# 文档构建
+# ======================
+docs/_build/
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# 编辑器 / IDE
+# ======================
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+
+# ======================
+# 环境变量 / 本地配置
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# 日志 / 临时文件
+# ======================
+*.log
+*.tmp
+tmp/
+temp/
+
+# ======================
+# 数据文件（按需保留）
+# ======================
+data/
+*.sqlite3
+*.db
